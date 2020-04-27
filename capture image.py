@@ -36,7 +36,7 @@ while(True):
 
         #create a on sceen counter  to show no of frae captured
         cv2.putText(img_frame, str(count), (30, 50), cv2.FONT_HERSHEY_PLAIN, 1.5, (255, 0, 0), 1)
-        #cv2.putText(img_frame, str(student_id), (40, 40), cv2.FONT_HERSHEY_PLAIN, 1.5, (255, 0, 0), 1)
+        cv2.putText(img_frame, str(student_id), (40, 40), cv2.FONT_HERSHEY_PLAIN, 1.5, (255, 0, 0), 1)
 
 
         #show frame with ractangle on face
